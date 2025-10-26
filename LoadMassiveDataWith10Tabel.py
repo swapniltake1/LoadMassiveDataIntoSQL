@@ -213,7 +213,7 @@ for i in tqdm(range(1000000), desc="Creating transactions"):
     cur.execute(
         "INSERT INTO transactions (account_id, txn_type, amount, txn_date, description) VALUES (%s,%s,%s,%s,%s)",
         (
-            random.randint(1, 50000),
+            random.randint(1, 500000),
             random.choice(["Credit", "Debit"]),
             random.randint(100, 50000),
             fake.date_time_between(start_date="-2y", end_date="now"),
