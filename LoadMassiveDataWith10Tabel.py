@@ -8,7 +8,7 @@ DB_CONFIG = {
     "host": "localhost",
     "user": "root",
     "password": "root",  # Replace with your MySQL root password
-    "database": "bankdb"
+    "database": "BankOf420"
 }
 
 # Initialize Faker for Indian data
